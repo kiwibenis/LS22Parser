@@ -15,5 +15,3 @@ Install:
 7. edit the /include/notify.php near the "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" -> place your discord webhook URL here and maybe edit the default Bot-Name
 8. repeat this for all following files: import_economy.php, import_farms.php, import_missions.php, import_sales.php, notify_missions.php, notify_sales.php by making search and replace for "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$"
 9. activate automatic data pulling via crontab or by manualy launching downloader.php -> you can take a crontab example from "crontab"
-
-What is "switchtowwwdata.sh" for? if you login as a non-root user into the system you can switch with this into the bash of www-data user. You can do it manually of yourse but I cannot remember the command for it so I wrote these 2 lines
